@@ -5,12 +5,24 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="app.js" defer></script>
+   <link rel="stylesheet" href="style.css">
+  <!-- <script src="app.js" defer></script> -->
+  <!-- <script src="funciones.js" defer></script> -->
+  <script src="calculadora.js" defer></script>
   <title>Javascript</title>
 </head>
 
 <body>
-  <div id="js"></div>
+  <div class="contenedor">
+    <form action="">
+      <input type="text" id="numero1">
+      <p>+</p>
+      <input type="text" id="numero2">
+      <p>=</p>
+      <input type="text" id="resultado" readonly> 
+      <input type="button" class="btn" value="resultado" onclick="suma()">
+    </form>
+  </div>
 </body>
 
 </html>
